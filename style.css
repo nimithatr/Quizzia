@@ -7,7 +7,8 @@
   body{
     background-color: #D6A3FB;
     background-image: url('https://traveldigg.com/wp-content/uploads/2016/09/Colorful-Aurora-Borealis-Photo.jpg'); 
-    height: 100%;
+    height: auto;
+    max-width: 100%;
     background-size: cover; 
     background-repeat: no-repeat;
   }
