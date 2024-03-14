@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'sans-serif';
+    box-sizing: border-box
+  }
+  body{
+    background-color: #D6A3FB;
+    background-image: url('https://traveldigg.com/wp-content/uploads/2016/09/Colorful-Aurora-Borealis-Photo.jpg'); 
+    height: 100%;
+    background-size: cover; 
+  }
+  .app{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px
+  }
+  .app h1{
+    text-align: center;
+    font-size: 50px;
+    color: #0049b7;
+    font-weight: 600;
+    border-bottom: 2px solid #7ccd25;
+    
+    padding-bottom: 20px
+  }
+  .app #scoretable{
+    text-align: end;
+    font-weight: bold;
+    color: #08b5b2;
+    display: none;
+  }
+  .app h3{
+    color: #0049b7;
+    padding: 10px;
+    font-weight: 600;
+  }
+  .quiz{
+    padding: 20px 0
+  }
+  .quiz #ans-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .quiz h2{
+    font-size: 18px;
+    color: #1d149d;
+    padding: 10px;
+    padding-bottom: 30px;
+    font-weight: 600;
+  }
+  .btn{
+    background: #e6e8e9;
+    color: #025860;
+    font-weight: 500;
+    /* align-items: center; */
+    justify-content: center; 
+    margin-left: 5%;
+    line-height: 10px;
+    width: 20%;
+    border: 2px solid #25aecd;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: none
+  }
+  .btn:hover:not([disabled]){
+    background: #8751ce;
+    color: #fff;
+  }
+  .btn:disabled{
+    cursor: no-drop
+  }
+  #next-btn{
+    background: #8751ce;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 40px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none
+  }
+  .correct{
+    background: #9aeabc
+  }
+  .incorrect{
+    background: #ff9393
+  }
